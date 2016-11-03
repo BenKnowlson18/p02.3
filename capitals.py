@@ -37,5 +37,16 @@ def run_tests():
 
 # Edit this code
 def isCap(word, n):
+
+    length = len(word)
+
+    if n >= length:
+        print("Too small")
+
+    elif word[n].isupper():
+        print("Capital")
+
+    else:
+        print("Non-capital")
     
 

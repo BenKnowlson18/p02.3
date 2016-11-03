@@ -46,4 +46,16 @@ def run_tests():
 # Edit this code
 def price(day, age):
 
+    if "Saturday" in day:
+        print("£6.50")
+
+    elif age >= 65:
+        print("£4.00")
+
+    elif age <= 10:
+        print("£3.00")
+
+    else:
+        print("£5.00")
+
 

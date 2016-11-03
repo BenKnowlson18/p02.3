@@ -35,3 +35,15 @@ def run_tests():
 # Edit this code
 def compute(num1, operator, num2):
 
+    if "+" in operator:
+        print(num1 + num2)
+
+    elif "-" in operator:
+        print(num1 - num2)
+
+    elif "x" in operator:
+        print(num1 * num2)
+
+    
+        
+

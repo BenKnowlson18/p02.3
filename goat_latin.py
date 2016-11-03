@@ -45,3 +45,15 @@ def run_tests():
 # Edit this code
 def encode(word):
 
+    length = len(word)
+    newword = ""
+
+    if length < 4:
+        print(word * 2)
+
+    elif word[0].lower() in "aeoiu":
+        print(word[1:length] + word[0])
+
+    else:
+        print(word[::-1])
+        
